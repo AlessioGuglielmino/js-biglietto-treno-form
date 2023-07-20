@@ -1,5 +1,7 @@
 const targetParagraph = document.getElementById("nome-passeggero");
 const sendButton = document.getElementById("send-text");
+const deleteButton = document.getElementById("delete-text");
+
 const textInput = document.getElementById("username-surname");
 const kmInput = document.getElementById("km-to-do");
 const ageInput = document.getElementById("user-age");
@@ -21,6 +23,12 @@ sendButton.addEventListener("click", function () {
   targetParagraph.innerHTML = nome;
   targetCost.innerHTML = price;
 
+  textInput.value = "";
+  kmInput.value = "";
+  ageInput.value = "";
+});
+
+deleteButton.addEventListener("click", function () {
   textInput.value = "";
   kmInput.value = "";
   ageInput.value = "";
