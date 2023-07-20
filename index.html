@@ -18,12 +18,12 @@
     />
     <!-- MAIN JAVASCRIPT -->
 <script type="text/javascript" src="./main.js" defer></script>
-  <body class="p-3 mb-2 bg-danger text-white">
+  <body class="p-3 mb-2 bg-danger text-white  ">
     <div class="container text-center"><h1>Calcola il Prezzo del Tuo Biglietto</h1>
     </div>
 <!-- DATI UTENTE -->
 
-    <div class="container mt-5 ">
+    <div class="container mt-5 border rounded p-4">
         <div class="row d-flex ">
             <div class="col-4 text-center">
                 <h6> Nome Cognome</h6>
@@ -41,7 +41,7 @@
         </div>
         <div class="row mt-5 d-flex  justify-content-center">
             <button class="btn btn-light w-25 me-4" id="send-text"> Genera</button>
-            <button class="btn btn-light w-25" id="delete-text"> cancella</button>
+            <button class="btn btn-light w-25" id="delete-text"> Cancella</button>
 
         </div>
         
@@ -49,29 +49,29 @@
 
     </div>
 <!-- IL TUO BIGLIETTO -->
-<div class="container text-center"><h2>Il Tuo Biglietto</h2>
+<div class="container text-center mt-5"><h2>Il Tuo Biglietto</h2>
 </div>
-    <div class="container mt-4 ">
-        <h3 class="border-bottom">Dettaglio passeggiero</h3>
+    <div class="container mt-4 border rounded p-4">
+        <h3 class="border-bottom mb-4">Dettaglio Passeggiero</h3>
         <div class="row d-flex ">
-            <div class="col-4 text-center bg-secondary rounded text-white p-4">
-                <h6  class="text-dark"> Nome passeggero</h6>
-               <p id="nome-passeggero"></p>
+            <div class="col-4 text-center bg-light text-dark rounded p-4 ">
+                <h6  class="text-dark mb-4"> Nome passeggero</h6>
+               <p id="nome-passeggero" ></p>
             
         </div>
             <div class="col-8 text-center d-flex justify-content-between p-4 gap-2">
-                <div><h6  class="text-dark">offerta</h6>
+                <div class="bg-light text-dark rounded p-3"><h6  class="text-dark">offerta</h6>
                     <p>Standard</p>
                 </div>
-                <div><h6  class="text-dark">carrozza</h6>
+                <div class="bg-light text-dark rounded p-3"><h6  class="text-dark">carrozza</h6>
                     <p>6</p>
 
                 </div>
-                <div><h6  class="text-dark">codice CP</h6>
+                <div class="bg-light text-dark rounded p-3"><h6  class="text-dark">codice CP</h6>
                     <p>59687</p>
 
                 </div>
-                <div><h6  class="text-dark">costo </h6>
+                <div class="bg-light text-dark rounded p-3"><h6  class="text-dark">costo </h6>
                     <p id="costo-biglietto" ></p>
                 </div>
             </div>
@@ -79,7 +79,7 @@
         </div>
         
         
-        <p id="target"></p>
+     
 
     </div>
   </body>

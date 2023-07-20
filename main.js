@@ -21,7 +21,7 @@ sendButton.addEventListener("click", function () {
   }
 
   targetParagraph.innerHTML = nome;
-  targetCost.innerHTML = price;
+  targetCost.innerHTML = "€ " + price;
 
   textInput.value = "";
   kmInput.value = "";
